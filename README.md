@@ -3,24 +3,25 @@ This is a project using React to create a weather app showing a 5 day forecast.
 It is written by Lydia Wallace under the guidance of Manchester Codes.
 
 ## Description
-This 
-![screenshot of homepage on desktop](./Screenshots/Screenshot%202022-06-25%20at%2011.35.00.png)
-![screenshot of result example on desktop](./Screenshots/Screenshot%202022-06-25%20at%2011.40.24.png)
-![screenshot of homepage on mobile](./Screenshots/Screenshot%202022-06-25%20at%2011.44.25.png)
+This app is mobile and desktop friendly. The entry point for the user is a search bar where they can type in a 
+![screenshot of homepage on desktop](./Screenshots/Screenshot%202022-06-25%20at%2011.35.00.png "Homepage on desktop")
+![screenshot of result example on desktop](./Screenshots/Screenshot%202022-06-25%20at%2011.40.24.png "Result page on desktop")
+![screenshot of homepage on mobile](./Screenshots/Screenshot%202022-06-25%20at%2011.44.25.png "Homepage on mobile")
 ![screenshot of result example on mobile](./Screenshots/Screenshot%202022-06-25%20at%2011.44.13.png)
+![screenshot example of error code when the user searches for an invalid location](./Screenshots/Screenshot%202022-06-25%20at%2011.54.31.png)
 
 ## API
 mcr-codes-weather-app.herokuapp.com default API,
 mcr-codes-weather-app-alt.herokuapp.com alternative API (just in case main API is not working).
 
 ## Technologies
-CSS/
-Javascript/
-React/
-Axios/
-Jest/
-React Testing Library/
-ESlint/
+CSS\
+Javascript\
+React\
+Axios\
+Jest\
+React Testing Library\
+ESlint\
 
 
 ## Create React App Documentation
