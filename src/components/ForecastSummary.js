@@ -1,22 +1,26 @@
 import React from "react";
 import WeatherIcon from "react-icons-weather";
+import "../styles/forecast-summary.css";
 
 import PropTypes from "prop-types";
 
-function ForecastSummary(props) {
-  const { date, temperature, description, icon, setSelectedDate } = props;
+function ForecastSummary({
+  date,
+  temperature,
+  description,
+  icon,
+  setSelectedDate,
+}) {
   const formattedDate = new Date(date).toDateString();
   const handleClick = () => {
     setSelectedDate(date);
   };
   return (
-    <div className="forecast-summary" data-testid="forecast-summary">
-      <b>
-        <div className="forecastSummary__date">{formattedDate}</div>
-      </b>
-      <div className="forecastSummary__temperature">{`${temperature.max}°C`}</div>
-      <div className="forecastSummary__description">{description}</div>
-      <div className="forecastSummary__icon" data-testid="forecast-icon">
+    <div data-testid="forecast-summary">
+      <div className="forecast-summary-date">{formattedDate}</div>
+      <div className="forecast-summary-temperature">{`${temperature.max}°C`}</div>
+      <div className="forecast-summary-description">{description}</div>
+      <div className="forecast-summary-icon" data-testid="forecast-icon">
         <WeatherIcon
           name="owm"
           iconId={`${icon}`}

@@ -1,4 +1,4 @@
-import "../styles/DetailedForecast.css";
+import "../styles/detailed-forecast.css";
 
 import React from "react";
 import WeatherIcon from "react-icons-weather";
@@ -13,10 +13,8 @@ function DetailedForecast({ forecasts, selectedDate }) {
 
   return (
     <div className="detailed-forecast">
-      <b>
-        <div className="detailedForecast__date">{`Details for ${formattedDate}`}</div>
-      </b>
-      <div className="forecastSummary__icon" data-testid="forecast-icon">
+      <div className="detailed-forecast-date">{`Details for ${formattedDate}`}</div>
+      <div>
         <WeatherIcon
           name="owm"
           iconId={`${selectedForecast.icon}`}

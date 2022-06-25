@@ -6,28 +6,25 @@ exports[`ForecastSummaries renders correctly 1`] = `
     class="forecast-summaries"
   >
     <div
-      class="forecast-summary"
       data-testid="forecast-summary"
     >
-      <b>
-        <div
-          class="forecastSummary__date"
-        >
-          Mon Apr 30 2018
-        </div>
-      </b>
       <div
-        class="forecastSummary__temperature"
+        class="forecast-summary-date"
+      >
+        Mon Apr 30 2018
+      </div>
+      <div
+        class="forecast-summary-temperature"
       >
         15°C
       </div>
       <div
-        class="forecastSummary__description"
+        class="forecast-summary-description"
       >
         test
       </div>
       <div
-        class="forecastSummary__icon"
+        class="forecast-summary-icon"
         data-testid="forecast-icon"
       >
         <i
@@ -42,28 +39,25 @@ exports[`ForecastSummaries renders correctly 1`] = `
       </button>
     </div>
     <div
-      class="forecast-summary"
       data-testid="forecast-summary"
     >
-      <b>
-        <div
-          class="forecastSummary__date"
-        >
-          Mon Apr 30 2018
-        </div>
-      </b>
       <div
-        class="forecastSummary__temperature"
+        class="forecast-summary-date"
+      >
+        Mon Apr 30 2018
+      </div>
+      <div
+        class="forecast-summary-temperature"
       >
         10°C
       </div>
       <div
-        class="forecastSummary__description"
+        class="forecast-summary-description"
       >
         test2
       </div>
       <div
-        class="forecastSummary__icon"
+        class="forecast-summary-icon"
         data-testid="forecast-icon"
       >
         <i

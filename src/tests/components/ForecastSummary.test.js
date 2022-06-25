@@ -40,19 +40,19 @@ describe("ForecastSummary", () => {
 
     expect(getByText("Mon Apr 30 2018")).toHaveAttribute(
       "class",
-      "forecastSummary__date"
+      "forecast-summary-date"
     );
     expect(getByText("Stub description")).toHaveAttribute(
       "class",
-      "forecastSummary__description"
+      "forecast-summary-description"
     );
     expect(getByTestId("forecast-icon")).toHaveAttribute(
       "class",
-      "forecastSummary__icon"
+      "forecast-summary-icon"
     );
     expect(getByText("22°C")).toHaveAttribute(
       "class",
-      "forecastSummary__temperature"
+      "forecast-summary-temperature"
     );
   });
 });

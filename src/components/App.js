@@ -1,5 +1,4 @@
-/* eslint-disable no-console */
-import "../styles/App.css";
+import "../styles/app.css";
 
 import React, { useState } from "react";
 import axios from "axios";
@@ -34,7 +33,6 @@ function App() {
           setFirstLine(
             "Oops, it looks like there was a server error, try again later"
           );
-          console.log(error);
         }
       });
   };

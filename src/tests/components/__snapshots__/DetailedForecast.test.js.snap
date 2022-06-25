@@ -5,22 +5,27 @@ exports[`Detailed Forecast renders correctly 1`] = `
   <div
     class="detailed-forecast"
   >
-    <b>
-      <div
-        class="detailedForecast__date"
-      >
-        Details for Mon Apr 30 2018
-      </div>
-    </b>
+    <div
+      class="detailed-forecast-date"
+    >
+      Details for Mon Apr 30 2018
+    </div>
+    <div>
+      <i
+        class="wi wi-day-sunny wi-flip-horizontal wi-rotate-90"
+        name="owm"
+      />
+       test
+    </div>
     <div
       class="detailedForecast__maxTemperature"
     >
-      Max Temperature: 15°C
+      Max: 15°C
     </div>
     <div
       class="detailedForecast__minTemperature"
     >
-      Min Temperature: 10°C
+      Min: 10°C
     </div>
     <div
       class="detailedForecast__humidity"

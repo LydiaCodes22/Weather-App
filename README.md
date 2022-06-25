@@ -3,11 +3,17 @@ This is a project using React to create a weather app showing a 5 day forecast.
 It is written by Lydia Wallace under the guidance of Manchester Codes.
 
 ## Description
-This app is mobile and desktop friendly. The entry point for the user is a search bar where they can type in a 
-![screenshot of homepage on desktop](./Screenshots/Screenshot%202022-06-25%20at%2011.35.00.png "Homepage on desktop")
-![screenshot of result example on desktop](./Screenshots/Screenshot%202022-06-25%20at%2011.40.24.png "Result page on desktop")
-![screenshot of homepage on mobile](./Screenshots/Screenshot%202022-06-25%20at%2011.44.25.png "Homepage on mobile")
-![screenshot of result example on mobile](./Screenshots/Screenshot%202022-06-25%20at%2011.44.13.png)
+This app is mobile and desktop friendly. \
+The entry point for the app is a search bar where the user can type in a city and hit enter or click the submit button. \
+![screenshot of homepage on desktop](./Screenshots/Screenshot%202022-06-25%20at%2011.35.00.png "Homepage on desktop")\
+![screenshot of homepage on mobile](./Screenshots/Screenshot%202022-06-25%20at%2011.44.25.png "Homepage on mobile")\
+
+Searching for a valid city will load a five day weather forecast for that location with a summary for the five days and the option to load additional details for each day if desired.\
+
+![screenshot of result example on desktop](./Screenshots/Screenshot%202022-06-25%20at%2011.40.24.png "Result page on desktop")\
+
+![screenshot of result example on mobile](./Screenshots/Screenshot%202022-06-25%20at%2011.44.13.png)\
+If the user search is invalid, the app will return a message to let them know./
 ![screenshot example of error code when the user searches for an invalid location](./Screenshots/Screenshot%202022-06-25%20at%2011.54.31.png)
 
 ## API
@@ -23,9 +29,12 @@ Jest\
 React Testing Library\
 ESlint\
 
+## Future Plans
+Additional testing would be the priority. With more time I would like to continue to improve the styling of this app and alter the more details so that this only renders when the user selects more details for one of the days.
 
-## Create React App Documentation
+## Create React App 
 
+### Documentation
 This project was bootstrapped with [Create React App] and you can learn more here: (https://github.com/facebook/create-react-app).
 
 Because it was created in this way there are the following scripts which will work in this project:
