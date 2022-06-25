@@ -9,9 +9,7 @@ import DetailedForecast from "./DetailedForecast";
 import CitySearch from "./CitySearch";
 
 function App() {
-  // get forecasts
   const [forecasts, setForecasts] = useState([]);
-  // get location
   const [location, setLocation] = useState({ city: "", country: "" });
   const [selectedDate, setSelectedDate] = useState(0);
   const [searchTerm, setSearchTerm] = useState("");
